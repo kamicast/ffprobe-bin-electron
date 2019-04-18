@@ -14,13 +14,13 @@ if (platform === 'mac' && arch !== 'x64') {
   process.exit(1)
 }
 
-const ffmpegPath = path.join(
+const ffprobePath = path.join(
   __dirname,
   '../',
   'bin',
   platform,
   arch,
-  platform === 'win' ? 'ffmpeg.exe' : 'ffmpeg'
+  platform === 'win' ? 'ffprobe.exe' : 'ffprobe'
 )
 
-export default ffmpegPath
+export default ffprobePath
