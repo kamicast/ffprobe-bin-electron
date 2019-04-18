@@ -1,6 +1,6 @@
 {
   "name": "ffprobe-bin-electron",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Static ffprobe binaries for use with electron on Mac OSX, Linux, and Windows",
   "main": "lib/index.js",
   "files": [
