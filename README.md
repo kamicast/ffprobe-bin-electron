@@ -17,7 +17,7 @@ This is a modified module from [here](https://github.com/eugeneware/ffprobe-bin-
 
 
 ## Developer
-In order to download all the binaries
+In order to download all the binaries in preparation
 ```sh
 yarn run build-bin
 ```
@@ -43,16 +43,7 @@ console.log(ffprobe);
 
 
 ## The binaries sources
-
-[The build script](build/index.sh) downloads binaries from these locations:
-
-- [Windows builds](https://ffprobe.zeranoe.com/builds/win64/static/)
-- [Linux builds](https://johnvansickle.com/ffprobe/)
-- [macOS builds](https://evermeet.cx/pub/ffprobe/)
-
-## Building the project
-
-The `unzip`, `tar` and `7zr` CLI executables need to be installed. On macOS, use `brew install p7zip gnu-tar xz`.
+All binaries came from [here](https://ffbinaries.com)
 
 ---
 
