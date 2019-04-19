@@ -32,12 +32,12 @@ yarn add ffprobe-bin-electron
 ## How to use
 ```js
 // ES6
-import ffprobe from 'ffprobe-bin-electron';
+import ffprobePath from 'ffprobe-bin-electron';
 // ES5
-const ffprobe = require('ffprobe-bin-electron').default;
+const ffprobePath = require('ffprobe-bin-electron').default;
 
 
-console.log(ffprobe);
+console.log(ffprobePath);
 // /Users/craigoconnor/Projects/ffprobe-test/ffprobe-bin-electron/bin/darwin/x64/ffprobe
 ```
 
